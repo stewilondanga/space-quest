@@ -157,11 +157,12 @@ details>summary:first-of-type {
   grid-area: ship1;
 }
 
-/*#ship1 img {
+#ship1 img {
   transform: rotate(170deg);
   width: 100%;
 }
-#ship2 {
+
+/*#ship2 {
   grid-area: ship2;
 }
 #ship2 img {
