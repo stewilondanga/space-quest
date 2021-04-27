@@ -122,7 +122,7 @@ header {
   font-size: 1em;
 }
 
-/*main {
+main {
   display: grid;
   grid-template-areas:
     'header header header'
@@ -133,7 +133,8 @@ header {
   grid-gap: .3em;
   padding: .8em;
 }
-h2 {
+
+/*h2 {
   color: #fff;
   padding: .5em;
   grid-area: header;
