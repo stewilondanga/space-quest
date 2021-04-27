@@ -166,12 +166,13 @@ details>summary:first-of-type {
   grid-area: ship2;
 }
 
-/*#ship2 img {
+#ship2 img {
   transform: rotate(135deg);
   width: 80%;
   opacity: .85;
 }
-#ship3 {
+
+/*#ship3 {
   grid-area: ship3;
 }
 #ship3 img {
