@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,119 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff url('http://www.slate.com/content/dam/slate/articles/health_and_science/science/2012/07/120712_SCI_NIGHTSKY.jpg.CROP.rectangle3-large.jpg') no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  border: 10px solid #fff;
+}
+header{
+  background-color: gold;
+  border: 5px solid #000;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  font-style: italic;
+  font-size: 1em;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'ship1 text1 text1'
+    'blank ship2 text2'
+    'text3 text3 ship3';
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .3em;
+  padding: .8em;
+}
+h2 {
+  color: #fff;
+  padding: .5em;
+  grid-area: header;
+}
+img {
+  padding: .3em;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary:first-of-type {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#ship1 {
+  grid-area: ship1;
+}
+#ship1 img {
+  transform: rotate(170deg);
+  width: 100%;
+}
+#ship2 {
+  grid-area: ship2;
+}
+#ship2 img {
+  transform: rotate(135deg);
+  width: 80%;
+  opacity: .85;
+}
+#ship3 {
+  grid-area: ship3;
+}
+#ship3 img {
+  transform: rotate(100deg);
+  width: 60%;
+  opacity: .7;
+}
+
+summary {
+  margin: 0;
+}
+
+details > p {
+  position: relative;
+  background: #fff;
+  border: 3px solid #222;
+  border-radius: .8em;
+  box-shadow: 3px 3px 5px rgba(255,255,255,.5);
+  color: #222;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: .8em;
+  margin: 0;
+}
+
+#text1 {
+  top: -150px;
+  left: 150px;
+}
+
+#text2 {
+  top: -100px;
+  left: -100px;
+}
+
+#text3 {
+  top: -90px;
+  left: -120px;
+}
+
+footer {
+  background-color: goldenrod;
+  border-top: 5px solid red;
+  margin: 0;
+  padding: 0 .8em .2em .5em;
+  margin-top: 1em;
 }
 
 #contact h1 {
