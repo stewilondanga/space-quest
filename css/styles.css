@@ -140,10 +140,11 @@ h2 {
   grid-area: header;
 }
 
-/*img {
+img {
   padding: .3em;
 }
 
+/*
 details > summary::-webkit-details-marker {
   display: none;
 }
