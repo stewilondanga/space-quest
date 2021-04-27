@@ -176,12 +176,13 @@ details>summary:first-of-type {
   grid-area: ship3;
 }
 
-/*#ship3 img {
+#ship3 img {
   transform: rotate(100deg);
   width: 60%;
   opacity: .7;
 }
 
+/*
 summary {
   margin: 0;
 }
