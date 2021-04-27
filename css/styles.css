@@ -162,10 +162,11 @@ details>summary:first-of-type {
   width: 100%;
 }
 
-/*#ship2 {
+#ship2 {
   grid-area: ship2;
 }
-#ship2 img {
+
+/*#ship2 img {
   transform: rotate(135deg);
   width: 80%;
   opacity: .85;
