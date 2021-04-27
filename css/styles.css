@@ -182,11 +182,11 @@ details>summary:first-of-type {
   opacity: .7;
 }
 
-/*
 summary {
   margin: 0;
 }
 
+/*
 details > p {
   position: relative;
   background: #fff;
