@@ -4,6 +4,14 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  background: #fff url('http://www.slate.com/content/dam/slate/articles/health_and_science/science/2012/07/120712_SCI_NIGHTSKY.jpg.CROP.rectangle3-large.jpg') no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  border: 10px solid #fff;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -114,13 +122,6 @@ html {
 }
 
 
-body {
-  min-height: 100vh;
-  background: #fff url('http://www.slate.com/content/dam/slate/articles/health_and_science/science/2012/07/120712_SCI_NIGHTSKY.jpg.CROP.rectangle3-large.jpg') no-repeat;
-  background-size: cover;
-  font-family: sans-serif;
-  border: 10px solid #fff;
-}
 header{
   background-color: gold;
   border: 5px solid #000;
