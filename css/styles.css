@@ -172,10 +172,11 @@ details>summary:first-of-type {
   opacity: .85;
 }
 
-/*#ship3 {
+#ship3 {
   grid-area: ship3;
 }
-#ship3 img {
+
+/*#ship3 img {
   transform: rotate(100deg);
   width: 60%;
   opacity: .7;
