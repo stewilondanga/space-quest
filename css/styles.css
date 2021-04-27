@@ -186,19 +186,19 @@ summary {
   margin: 0;
 }
 
-/*
-details > p {
+details>p {
   position: relative;
   background: #fff;
   border: 3px solid #222;
   border-radius: .8em;
-  box-shadow: 3px 3px 5px rgba(255,255,255,.5);
+  box-shadow: 3px 3px 5px rgba(255, 255, 255, .5);
   color: #222;
   font-family: "Comic Sans MS", cursive, sans-serif;
   padding: .8em;
   margin: 0;
 }
 
+/*
 #text1 {
   top: -150px;
   left: 150px;
