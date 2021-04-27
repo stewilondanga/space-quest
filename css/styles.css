@@ -144,11 +144,11 @@ img {
   padding: .3em;
 }
 
-/*
-details > summary::-webkit-details-marker {
+details>summary::-webkit-details-marker {
   display: none;
 }
 
+/*
 details > summary:first-of-type {
   list-style-type: none;
   cursor: pointer;
